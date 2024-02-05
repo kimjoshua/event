@@ -1,0 +1,18 @@
+
+twitter-to-kafka-service:
+  twitter-keywords:
+    - Java
+    - Microservices
+    - Kafka
+    - Elasticsearch
+  welcome-message: Hello microservices!
+  enable-v2-tweets: true
+  enable-mock-tweets: false
+  twitter-v2-base-url: https://api.twitter.com/2/tweets/search/stream?tweet.fields=created_at&expansions=author_id
+  twitter-v2-rules-base-url: https://api.twitter.com/2/tweets/search/stream/rules
+  twitter-v2-bearer-token: AAAAAAAAAAAAAAAAAAAAAI39sAEAAAAAoK32WKwLr73QNh4qpP7HKHeM%2Fac%3Dz5w2NAhs7CBnY52m40cZDklXygHc84OugPjsSAGTnRjYqXUbxM
+
+
+logging:
+  pattern:
+    console: '%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){blue} %clr(%5p) %clr(---){faint} %clr(%-40.40logger{39}){blue} %clr(:){faint} %m%n%clr'

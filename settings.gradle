@@ -1,0 +1,5 @@
+rootProject.name = 'event-msa'
+
+
+
+include 'twitter-to-kafka'
