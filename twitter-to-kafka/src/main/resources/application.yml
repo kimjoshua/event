@@ -10,7 +10,7 @@ twitter-to-kafka-service:
   enable-mock-tweets: false
   twitter-v2-base-url: https://api.twitter.com/2/tweets/search/stream?tweet.fields=created_at&expansions=author_id
   twitter-v2-rules-base-url: https://api.twitter.com/2/tweets/search/stream/rules
-  twitter-v2-bearer-token: AAAAAAAAAAAAAAAAAAAAAI39sAEAAAAAoK32WKwLr73QNh4qpP7HKHeM%2Fac%3Dz5w2NAhs7CBnY52m40cZDklXygHc84OugPjsSAGTnRjYqXUbxM
+  twitter-v2-bearer-token:
 
 
 logging:
