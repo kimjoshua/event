@@ -1,0 +1,12 @@
+[versions]
+twitter4j = "4.0.7"
+httpclient = "1.8.20"
+javax-annotation ="1.3.2"
+
+
+
+[libraries]
+twitter4j = { module = "org.twitter4j:twitter4j-stream", version.ref = "twitter4j" }
+httpclient = { module = "org.twitter4j:twitter4j-stream", version.ref = "twitter4j" }
+json = { module = "org.twitter4j:twitter4j-stream", version.ref = "twitter4j" }
+javax-annotation = { module = "javax.annotation:javax.annotation-api", version.ref = "javax-annotation" }

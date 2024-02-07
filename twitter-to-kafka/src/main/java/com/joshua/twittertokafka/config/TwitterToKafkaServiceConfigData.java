@@ -11,7 +11,8 @@ import org.springframework.context.annotation.Configuration;
 public class TwitterToKafkaServiceConfigData {
     private List<String> twitterKeywords;
     private String welcomeMessage;
-    private String twitterV2BaseUrl;
-    private String twitterV2RulesBaseUrl;
-    private String twitterV2BearerToken;
+    private Boolean enableMockTweets;
+    private Long mockSleepMs;
+    private Integer mockMinTweetLength;
+    private Integer mockMaxTweetLength;
 }

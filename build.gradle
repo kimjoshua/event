@@ -34,8 +34,9 @@ subprojects {
 
     dependencies {
         implementation libs.twitter4j
-        implementation libs.httpclient
-        implementation libs.json
+        implementation libs.javax.annotation
+//        implementation libs.httpclient
+//        implementation libs.json
 
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
